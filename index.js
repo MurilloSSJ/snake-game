@@ -30,7 +30,7 @@ function show(){
     //Inicializando score
     canvasContext.font = '50px Arial'
     canvasContext.fillStyle = '#00FF42'
-    canvasContext.fillText(`Score:${snake.tail.length} `,canvas.width - 120,120,50)
+    canvasContext.fillText(`Score:${snake.tail.length} `,canvas.width - 120,120,70)
     //Inicializando a cobra
     componentRender(apple.x,apple.y,apple.size,apple.size,apple.color)
     for(let i=0;i< snake.tail.length; i++){
